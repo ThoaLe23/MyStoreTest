@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Test_All</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_All</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 06 21:19:55 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>146 seconds (146939 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mystore.testcases.HomePageTest.verifyUserName()'><b>verifyUserName</b><br>Test class: com.mystore.testcases.HomePageTest<br>Parameters: test23@gmail.com, 123456.0</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.HomePageTest@2d52216b</td></tr>
+<tr>
+<td title='com.mystore.testcases.IndexPageTest.verifyLogo()'><b>verifyLogo</b><br>Test class: com.mystore.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mystore.testcases.IndexPageTest@272113c4</td></tr>
+<tr>
+<td title='com.mystore.testcases.SignUpPageTest.signUpTest()'><b>signUpTest</b><br>Test class: com.mystore.testcases.SignUpPageTest<br>Parameters: newtest1@gmail.com, sdf, sdf</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.SignUpPageTest@783a467b</td></tr>
+<tr>
+<td title='com.mystore.testcases.PaymentPageTest.PaymentTest()'><b>PaymentTest</b><br>Test class: com.mystore.testcases.PaymentPageTest<br>Parameters: Simple, 2.0</td>
+<td></td>
+<td>14</td>
+<td>com.mystore.testcases.PaymentPageTest@1ed6388a</td></tr>
+<tr>
+<td title='com.mystore.testcases.AddressPageTest.ChangeAddressTest2()'><b>ChangeAddressTest2</b><br>Test class: com.mystore.testcases.AddressPageTest</td>
+<td></td>
+<td>18</td>
+<td>com.mystore.testcases.AddressPageTest@771a660</td></tr>
+<tr>
+<td title='com.mystore.testcases.AddToCartPageTest.addToCartTest1()'><b>addToCartTest1</b><br>Test class: com.mystore.testcases.AddToCartPageTest<br>Parameters: Simple, 2.0</td>
+<td></td>
+<td>12</td>
+<td>com.mystore.testcases.AddToCartPageTest@942a29c</td></tr>
+<tr>
+<td title='com.mystore.testcases.EndToEndTest2.EndToEndTest()'><b>EndToEndTest</b><br>Test class: com.mystore.testcases.EndToEndTest2<br>Parameters: Simple, 2.0</td>
+<td></td>
+<td>14</td>
+<td>com.mystore.testcases.EndToEndTest2@5a45133e</td></tr>
+<tr>
+<td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: test23@gmail.com, 123456.0</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.LoginPageTest@b9b00e0</td></tr>
+<tr>
+<td title='com.mystore.testcases.OrderPageTest.verifyTotalPrice2()'><b>verifyTotalPrice2</b><br>Test class: com.mystore.testcases.OrderPageTest<br>Parameters: Simple, 2.0</td>
+<td></td>
+<td>13</td>
+<td>com.mystore.testcases.OrderPageTest@242b836</td></tr>
+<tr>
+<td title='com.mystore.testcases.AddToCartPageTest.addToCartTest2()'><b>addToCartTest2</b><br>Test class: com.mystore.testcases.AddToCartPageTest<br>Parameters: Simple, 2.0</td>
+<td></td>
+<td>9</td>
+<td>com.mystore.testcases.AddToCartPageTest@942a29c</td></tr>
+<tr>
+<td title='com.mystore.testcases.SearchResultPageTest.productAvialabilityTest()'><b>productAvialabilityTest</b><br>Test class: com.mystore.testcases.SearchResultPageTest<br>Parameters: Simple</td>
+<td></td>
+<td>2</td>
+<td>com.mystore.testcases.SearchResultPageTest@73e9cf30</td></tr>
+<tr>
+<td title='com.mystore.testcases.SignUpPageTest.signUpTest()'><b>signUpTest</b><br>Test class: com.mystore.testcases.SignUpPageTest<br>Parameters: newtest3@gmail.com, sdc, sdc</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.SignUpPageTest@783a467b</td></tr>
+<tr>
+<td title='com.mystore.testcases.SignUpPageTest.signUpTest()'><b>signUpTest</b><br>Test class: com.mystore.testcases.SignUpPageTest<br>Parameters: newtest1@gmail.com, abc, abc</td>
+<td></td>
+<td>3</td>
+<td>com.mystore.testcases.SignUpPageTest@783a467b</td></tr>
+</table><p>
+</body>
+</html>
