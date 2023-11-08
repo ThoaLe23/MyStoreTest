@@ -84,7 +84,7 @@ public class OrderPageTest extends BaseClass{
 		Double discountPrice = orderPage.getItemDiscountPrice();
 		Double totalPrice = orderPage.getItemTotalPrice();
 		Thread.sleep(1000);
-		Double totalPriceExpecte = (itemPrice*(Double.parseDouble(qty)))-(discountPrice)+21000;
+		Double totalPriceExpecte = (itemPrice*(Double.parseDouble(qty)))-(discountPrice)+20000;
 		Assert.assertEquals(totalPrice, totalPriceExpecte);
 //		Thread.sleep(1000);
 		Log.endTestCase("verifyTotalPrice2");

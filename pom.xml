@@ -14,7 +14,7 @@
 	<dependency>
 	    <groupId>org.testng</groupId>
 	    <artifactId>testng</artifactId>
-	    <version>7.1.0</version>
+	    <version>7.4.0</version>
 	    <scope>compile</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -49,7 +49,7 @@
 	<dependency>
 	    <groupId>io.github.bonigarcia</groupId>
 	    <artifactId>webdrivermanager</artifactId>
-	    <version>5.0.0</version>
+	    <version>5.6.1</version>
 	</dependency>
 
   </dependencies>

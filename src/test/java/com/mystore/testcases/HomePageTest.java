@@ -42,7 +42,7 @@ public class HomePageTest extends BaseClass{
 		loginPage=indexPage.clickOnSignIn();
 		homePage = loginPage.login1(uname,pswd,homePage);
 		boolean result = homePage.validateUserName();
-		Assert.assertTrue(false);
+		Assert.assertTrue(result);
 		Log.endTestCase("verifyUserName");
 	
 	}
